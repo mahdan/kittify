@@ -1,0 +1,45 @@
+.content {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff; }
+
+.kitten-list {
+  list-style-type: none;
+  padding: 20px 50px; }
+
+.kitten-list-item {
+  display: inline-block;
+  position: relative;
+  background: #222529;
+  margin: 5px;
+  height: 220px;
+  overflow: hidden; }
+
+.kitten-list-item-image {
+  max-width: 300px;
+  width: 100%; }
+
+.kitten-list-item-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  color: #F19281; }
+
+.kitten-list-item-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  border: none;
+  background: #00b3e6;
+  transition: all 300ms;
+  padding: 6px 18px;
+  border-radius: 3px;
+  opacity: 0.7; }
+  .kitten-list-item-btn:hover {
+    opacity: 1; }
